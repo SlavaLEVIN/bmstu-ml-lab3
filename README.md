@@ -2,9 +2,11 @@
 
 Проверка языковых моделей на задачах классического машинного обучения.
 
-Модели: GigaChat-3-Ultra, GPT-6.1 Terra через LLM Gate и локальная Qwen3-4B-Instruct-2507 в Google Colab.
+Модели: GigaChat-3-Ultra, GPT-6.1 Terra через OpenRouter и локальная Qwen3-4B-Instruct-2507 в Google Colab.
 
-GPT-6.1 Terra заменяет Sol из-за ошибок шлюза. Ответы Sol сохранены в `answers_gpt_main.jsonl`, ответы Terra будут записываться в `answers_terra_main.jsonl`.
+Основные ответы Terra сохранены в `answers_terra_main.jsonl`.
+
+Получены по 36 ответов на основной банк при температуре 0 и по 22 дополнительных ответа при температуре 0,7 от каждой модели.
 
 ## Гипотезы
 
@@ -33,4 +35,4 @@ GPT-6.1 Terra заменяет Sol из-за ошибок шлюза. Ответ
 
 ## Дополнительные прогоны (пункт 7)
 
-Один дополнительный ответ при температуре 0,7 для A, B, D и F02, F03, F05, F09: 22 ответа на модель. Логи: `answers_gigachat_step7.jsonl` и `answers_qwen_step7.jsonl`. H3 — четыре задачи F, H5 — A и B, H11 — D.
+Один дополнительный ответ при температуре 0,7 для A, B, D и F02, F03, F05, F09: 22 ответа на модель. Логи: `answers_gigachat_step7.jsonl`, `answers_qwen_step7.jsonl` и `answers_terra_step7.jsonl`. H3 — четыре задачи F, H5 — A и B, H11 — D.
