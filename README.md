@@ -2,6 +2,10 @@
 
 Проверка языковых моделей на задачах классического машинного обучения.
 
+Модели: GigaChat-3-Ultra, GPT-6.1 Terra через LLM Gate и локальная Qwen3-4B-Instruct-2507 в Google Colab.
+
+GPT-6.1 Terra заменяет Sol из-за ошибок шлюза. Ответы Sol сохранены в `answers_gpt_main.jsonl`, ответы Terra будут записываться в `answers_terra_main.jsonl`.
+
 ## Гипотезы
 
 | Гипотеза | Группа | Прогноз |
